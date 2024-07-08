@@ -3,11 +3,20 @@
   "type": "module",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "sideEffects": false,
   "files": [
     "dist"
   ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kxtxr/ts-guard/issues",
+    "author": "Kator James <kb@everydaymoney.ng> (https://linkedin.com/in/kator/)"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kxtxr/ts-guard.git"
+  },
   "scripts": {
     "build": "tsc",
     "prepublishOnly": "yarn build",
